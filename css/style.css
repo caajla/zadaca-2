@@ -1,0 +1,100 @@
+body{
+    font-family: Arial;
+    margin: 0px;
+    background-image: url('../slike/pozadina.png');
+    background-repeat: repeat;
+}
+.container{
+    width: 100%;
+    background-color: white;
+}
+.linkovi{
+    padding: 20px 10px;
+    text-align: center;
+}
+.linkovi a{
+    display: inline-block;
+    width: 8%;
+    font-weight: bold;
+    
+}
+.linkovi a:hover{
+    color: red;
+}
+.active{
+    text-decoration: overline;
+    color: red;
+}
+.kursevi, .biografija, .kontakt{
+    color: black;
+}
+.active, .kursevi, .biografija
+{
+    border-right: 2px black solid;
+}
+.slide{
+    width: 100%;
+}
+.glavnidio{
+    width: 1024px;
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+    top: -20px;
+    left: 225px;
+    
+}
+
+.img{
+    width: 180px;
+    float: left;
+    padding-right: 20px;
+}
+h1{
+    margin: 0px;
+    padding: 20px;
+    font-size: 32px;
+}
+p{
+    line-height: 24px;
+    margin: 0;
+    padding-top: 15px
+    
+    
+}
+.clearfix{
+    clear: both;
+}
+.footer{
+    background-color: #90C3D4;
+    padding: 1px 0px;
+    position: absolute;
+    width: 100%;
+    margin-top: -20px;
+    
+}
+#wrapper{
+    width:1024px ;
+    height: 140px;
+}
+#adresa, #kontakt{
+    width: 49%;
+    text-align: center;
+}
+#adresa{
+    position: relative;
+    left: 250px;
+}
+#kontakt{
+    position: relative;
+    left: 750px;
+    top: -115px;
+}
+.kursevi,.kontakt{
+    text-decoration: none;
+}
+
+
+
+
+
